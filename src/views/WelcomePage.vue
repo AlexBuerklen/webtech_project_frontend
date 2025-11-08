@@ -48,7 +48,7 @@
       </table>
     </div>
   </div>
-  <h1 class="authors">Developed by Phillip Frey (https://github.com/PhillipFrey) and Alexander Bürklen (https://github.com/AlexBuerklenHTW)</h1>
+  <h1 class="authors">Developed by Phillip Frey (https://github.com/PhillipFrey) and Alexander Bürklen (https://github.com/AlexBuerklen)</h1>
 </template>
 
 <script>
