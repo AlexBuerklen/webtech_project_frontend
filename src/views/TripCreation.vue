@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header">
       <div class="logo">
-        <img src="../assets/Logo.png" alt="CompanyLogo" />
+        <img @click="goWelcomePage" src="../assets/Logo.png" alt="CompanyLogo" />
         <h1>TripPlaner</h1>
       </div>
     </div>
@@ -259,7 +259,13 @@ export default {
         routeFeatureRef.value = [];
       }
     };
+
+    const goWelcomePage = () => {
+      router.push({ path: '/' });
+    };
+
     return {
+      goWelcomePage,
       vectors,
       drawstart,
       center,
@@ -418,6 +424,7 @@ h1 {
 .header .logo img {
   height: 100px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .header a {
